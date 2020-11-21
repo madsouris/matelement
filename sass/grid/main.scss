@@ -1,0 +1,15 @@
+@import "variables/main.scss";
+@import "mixins/main.scss";
+@import "grid";
+@import "visibility"; // Visibility last for precedence
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+  box-sizing: border-box;
+}

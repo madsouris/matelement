@@ -2,10 +2,17 @@ $text-color: #212121;
 $alternate-color: #000000;
 $warning-color: #ff9800;
 $danger-color: #ff5722;
-$success-color: #4CAF50;
-$primary-color: #2196F3;
+$success-color: #4caf50;
+$primary-color: #2196f3;
 $border-color: #bdbdbd;
 
-$box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+$box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 $border: 1px solid $border-color;
 $radius: 0.5em;
+
+@import "__normalize.scss";
+@import "grid/main.scss";
+@import "__typo.scss";
+@import "__button.scss";
+@import "__form.scss";
+@import "__utilities.scss";

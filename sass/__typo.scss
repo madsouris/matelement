@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+::selection {
+  background: rgba($primary-color, 0.2);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  color: $text-color;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
+p {
+  font-weight: 400;
+  color: lighten($text-color, 10%);
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+hr {
+  color: lighten($border-color, 20%);
+  display: block;
+  height: 0.5px;
+}

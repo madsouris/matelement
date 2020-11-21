@@ -14,12 +14,17 @@ In the future I really want to turn this into a full feature framework with Java
 
 ## Features
 
-- [ ]  Light mode and Dark mode
+- [ ] Light mode and Dark mode
 
-- [ ]  Clean looking material design
+- [ ] Clean looking material design
 
-- [ ]  Lightweight
+- [ ] Lightweight
 
-- [ ]  Won't conflict with other frameworks
+- [ ] Won't conflict with other frameworks
 
-- [ ]  Responsive, of course
+- [ ] Responsive, of course
+
+## Credits
+
+- [Normalize](https://github.com/kristerkari/normalize.scss)
+- [Sass Flexbox Grid](https://github.com/drewbot/sass-flexbox-grid)
